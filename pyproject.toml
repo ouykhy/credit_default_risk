@@ -18,6 +18,8 @@ streamlit = "^1.41.1"
 uvicorn = "^0.34.0"
 fastapi = "^0.115.6"
 pytest = "^8.3.4"
+imblearn = "^0.0"
+seaborn = "^0.13.2"
 
 
 [build-system]
