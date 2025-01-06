@@ -9,7 +9,7 @@ import numpy as np
 app = FastAPI()
 
 # Load the model when the application starts
-model = joblib.load("models/trained_model.pkl")
+model = joblib.load("models/logistic_regression_model.pkl")
 
 
 # In[15]:

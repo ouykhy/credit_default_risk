@@ -15,7 +15,7 @@ st.title("Credit default risk Demo")
 # Load the saved model
 @st.cache_data
 def load_model():
-    with open("models/trained_model.pkl", "rb") as f:
+    with open("models/logistic_regression_model.pkl", "rb") as f:
         model = pickle.load(f)
         return model
 

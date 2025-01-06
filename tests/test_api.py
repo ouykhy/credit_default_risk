@@ -18,7 +18,7 @@ def test_root():
     assert "API is running" in res.json()["message"]
 
 def test_predict():
-    test_data = np.random.rand(1, 765).tolist()
+    test_data = np.random.rand(1, 43).tolist()
 
     res = client.post("/predict", json=test_data)
 
